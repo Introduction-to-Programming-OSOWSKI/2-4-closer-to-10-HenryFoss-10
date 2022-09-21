@@ -1,7 +1,7 @@
 def close10(x, y):
-    if y == 13:
-        return 5
-    if y == 15:
+    if abs(10-x) > abs(10-y):
+        return y
+    elif abs(10-x) == abs(10-y):
         return 0
     else:
-        return 1
+        return x
